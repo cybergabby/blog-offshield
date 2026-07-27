@@ -7,12 +7,13 @@
     "slug": "microsoft-sharepoint-zero-day",
     "category": "Vulnerabilities",
     "author": "OffShield Research",
-    "date": "2026-07-27",
+    "date": "27 July 2026",
     "readTime": "6 min read",
     "image": "assets/images/sharepoint.jpg",
     "summary": "Microsoft has released emergency security updates after attackers actively exploited a critical SharePoint vulnerability.",
-    "content": "This is the full article content."
+    "article": "posts/microsoft-sharepoint-zero-day.html"
   },
+
   {
     "id": 2,
     "featured": false,
@@ -21,24 +22,10 @@
     "slug": "lumma-stealer-campaign",
     "category": "Threat Intelligence",
     "author": "OffShield Labs",
-    "date": "2026-07-26",
+    "date": "26 July 2026",
     "readTime": "8 min read",
     "image": "assets/images/lumma.jpg",
-    "summary": "Researchers observed an increase in Lumma Stealer infections targeting crypto wallets.",
-    "content": "Full article..."
-  },
-  {
-    "id": 3,
-    "featured": false,
-    "trending": false,
-    "title": "Qilin Ransomware Expands Operations Across Europe",
-    "slug": "qilin-ransomware",
-    "category": "Malware",
-    "author": "OffShield Intelligence",
-    "date": "2026-07-25",
-    "readTime": "7 min read",
-    "image": "assets/images/qilin.jpg",
-    "summary": "Qilin operators continue targeting manufacturing organisations.",
-    "content": "Full article..."
+    "summary": "Researchers observed an increase in Lumma Stealer infections targeting cryptocurrency users worldwide.",
+    "article": "posts/lumma-stealer.html"
   }
 ]
