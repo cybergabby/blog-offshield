@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>OffShield Security News</title>
+
+    <meta name="description" content="Latest cybersecurity news, threat intelligence, vulnerabilities, malware analysis and research from OffShield Security.">
+
+    <link rel="icon" href="favicon.ico">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <div class="container nav">
+
+            <div class="logo">
+
+                <a href="index.html">
+                    <img src="assets/logo/offshield-logo.png" alt="OffShield Security">
+                </a>
+
+            </div>
+
+            <nav>
+
+                <ul>
+
+                    <li><a href="#">News</a></li>
+
+                    <li><a href="#">Threat Intel</a></li>
+
+                    <li><a href="#">Research</a></li>
+
+                    <li><a href="#">Vulnerabilities</a></li>
+
+                    <li><a href="#">Africa</a></li>
+
+                </ul>
+
+            </nav>
+
+            <div class="nav-actions">
+
+                <button class="search-btn">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                </button>
+
+                <button class="menu-btn">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- ================= BREAKING NEWS ================= -->
+
+    <section class="breaking">
+
+        <div class="container">
+
+            <span class="breaking-label">
+                Breaking
+            </span>
+
+            <div class="ticker">
+
+                <span id="tickerText">
+
+                    Loading latest security headlines...
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="container hero-grid">
+
+            <div class="hero-main">
+
+                <img
+                    src="assets/images/hero.jpg"
+                    alt="Featured Story"
+                >
+
+                <div class="hero-content">
+
+                    <span class="category">
+
+                        Threat Intelligence
+
+                    </span>
+
+                    <h1>
+
+                        Featured article loads here
+
+                    </h1>
+
+                    <p>
+
+                        Hero article description appears here...
+
+                    </p>
+
+                    <a href="#" class="read-btn">
+
+                        Read Story
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <aside class="hero-sidebar">
+
+                <h3>Trending</h3>
+
+                <div id="trendingStories"></div>
+
+            </aside>
+
+        </div>
+
+    </section>
+
+    <!-- ================= LATEST NEWS ================= -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Latest News</h2>
+
+                <a href="#">View all</a>
+
+            </div>
+
+            <div
+                class="news-grid"
+                id="latestNews"
+            ></div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= THREAT INTEL ================= -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Threat Intelligence</h2>
+
+                <a href="#">View all</a>
+
+            </div>
+
+            <div
+                class="news-grid"
+                id="threatIntel"
+            ></div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= VULNERABILITIES ================= -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Vulnerabilities</h2>
+
+                <a href="#">View all</a>
+
+            </div>
+
+            <div
+                class="news-grid"
+                id="vulnerabilityNews"
+            ></div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= NEWSLETTER ================= -->
+
+    <section class="newsletter">
+
+        <div class="container">
+
+            <h2>
+
+                Stay Ahead of Cyber Threats
+
+            </h2>
+
+            <p>
+
+                Weekly intelligence reports, breaking news, and exclusive security research.
+
+            </p>
+
+            <form id="newsletterForm">
+
+                <input
+                    type="email"
+                    placeholder="Email Address"
+                    required
+                >
+
+                <button>
+
+                    Subscribe
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="container">
+
+            <div class="footer-top">
+
+                <img
+                    src="assets/logo/offshield-logo-white.png"
+                    alt=""
+                >
+
+                <p>
+
+                    Cybersecurity News • Threat Intelligence • Research
+
+                </p>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                © 2026 OffShield Security. All Rights Reserved.
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script src="data/articles.json"></script>
+    <script src="js/articles.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/newsletter.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
