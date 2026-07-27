@@ -795,3 +795,57 @@ width:100%;
 }
 
 }
+
+
+
+/* ==========================
+SEARCH
+========================== */
+
+.search-box{
+
+    position:relative;
+
+    width:320px;
+
+}
+
+.search-box input{
+
+    width:100%;
+
+    padding:14px 45px 14px 18px;
+
+    border:1px solid #ddd;
+
+    border-radius:30px;
+
+    outline:none;
+
+    transition:.3s;
+
+    font-size:15px;
+
+}
+
+.search-box input:focus{
+
+    border-color:var(--primary);
+
+    box-shadow:0 0 0 4px rgba(11,108,251,.12);
+
+}
+
+.search-box i{
+
+    position:absolute;
+
+    right:18px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    color:#666;
+
+}
